@@ -1,11 +1,11 @@
 import javax.swing.*;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class cadastro {
 
-    public String cadastrarNome ( String nome) throws IOException {
+    public String cadastrarNome(String nome) throws IOException {
 
         nome = JOptionPane.showInputDialog(null, "Digite seu nome:", "Cadastro de Usuário");
 
@@ -24,6 +24,5 @@ public class cadastro {
             JOptionPane.showMessageDialog(null, "Cadastro cancelado ou nome inválido.");
             return null;
         }
-
     }
 }
