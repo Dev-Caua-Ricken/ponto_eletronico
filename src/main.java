@@ -11,7 +11,8 @@ public class main {
         String tabela = "escolha uma opção" +
                 "\n 1 - cadastrar usuário " +
                 "\n 2 - mostrar usuarios " +
-                "\n 3 - excluir usuarios ";
+                "\n 3 - excluir usuarios " +
+                "\n 0 - sair";
 
         String opcao = "";
 
